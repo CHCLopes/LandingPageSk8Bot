@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: url("https://portal.crea-sc.org.br/wp-content/uploads/2018/12/gradiente-azul-claro-fundo.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+
+.cabecalho {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 24px;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    border-radius: 50%;
+    border: 4px white double;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho-menu {
+    display:flex;
+    gap: 32px
+}
+
+.cabecalho-menu-item {
+   font-family: 'Sarala', sans-serif;
+   color: rgb(2, 69, 100);
+   font-size: 18px;
+   font-weight: 400;
+   
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgb(2, 69, 100)
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 24px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', sans-serif;
+    color: rgb(2, 69, 100);
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(2, 69, 100);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: rgb(2, 69, 100);
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    font-family: 'Sarala', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+    width: fit-content;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: whitesmoke;
+    color: rgb(2, 69, 100)
+}
+
+.conteudo-principal-imagem {
+    border-radius: 50%;
+    border: 4px white solid;
+    padding: 4px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid rgb(2, 69, 100);
+    padding-top: 48px;
+    margin-bottom: 16px;
+    font-family: 'Righteous', sans-serif;
+    color: rgb(2, 69, 100);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    color: rgb(2, 69, 100);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid rgb(2, 69, 100);
+}
+
+.rodape-imagem {
+    height: 120px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    padding: 4px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
