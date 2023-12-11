@@ -6,4 +6,4 @@ Sites ferramentas:
 - [netlify](netlify.com) "hospedagem gratuita do site"
 - [Youtube Rafaella Ballerini]([https://www.youtube.com/watch?v=llF6vD-RljE]) "aprendizado"
 
-Site publicado: [Landing Page Sk8Bot] (landingpagesk8bot.netlify.app)
+Site publicado: [Landing Page Sk8Bot](https://landingpagesk8bot.netlify.app/)https://landingpagesk8bot.netlify.app/)
